@@ -29,7 +29,7 @@ for index in range(len(lines)):
             temp_str += 'g'
         elif lines[index][index_2] in ('Д', 'д'):
             temp_str += 'd'
-        elif lines[index][index_2] in ('E', 'e'):
+        elif lines[index][index_2] in ('Е', 'е', 'е'):
             temp_str += 'e'
         elif lines[index][index_2] in ('Є', 'є'):
             temp_str += 'je'
